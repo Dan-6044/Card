@@ -1,14 +1,19 @@
+.Info{
+  height: 60vh;
+  margin: 0rem 5px;
+}
 .--info-image {
-    width: 317px;
+    width: 300px;
     aspect-ratio: 1;
     border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: 50%;
   }
   
   .Info h1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin: 1.5rem 0 0.3rem 0;
-    line-height: 30px;
     line-height: 100%;
     font-weight: 700;
   }
@@ -16,7 +21,7 @@
   .Info h2 {
     text-align: center;
     color: #f3bf99;
-    font-size: 12.8px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 15px;
     line-height: 100%;
@@ -39,17 +44,19 @@
   
   .--info-buttons {
     display: flex;
-    justify-content: space-around;
-    padding: 1.2rem;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-right:10px;
   }
   
   .Info button {
-    width: 115px;
-    height: 34px;
+    padding:5px;
+    width: 120px;
+    height: 30px;
     border: none;
     border-radius: 6px;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 10px;
   }
   
   .--info-email a {

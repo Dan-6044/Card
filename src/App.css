@@ -1,6 +1,10 @@
 .App .Container {
-  margin: 1rem auto;
-  max-width: 317px;
-  background-color: #1733d1;
+  text-align: center;;
+  margin: 0rem 5px;
+  max-width: 250px;
+  height:100vh;
+  overflow:hidden;
+  flex-direction: column;
+  background-color: #798ae9;
   border-radius: 8px;
 }
